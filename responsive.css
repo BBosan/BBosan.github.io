@@ -1,0 +1,544 @@
+@media (min-width:1024px) {
+	#mainMenu ul{display:block !important;}
+}
+
+@media (max-width:1023px) {
+	.kontakt_form_wrap{
+	  width:70%;
+	}
+
+	#below_banner .part1, #below_banner .part2 {
+		float:none;
+		display:block;
+		width:100%;
+		margin-top:0;
+		padding-bottom:0;
+		padding-top:10px;
+	}
+
+  /* mobile menu */
+  #mobileButton{
+  	opacity:0.9;
+    display:block;
+    float:right;
+    margin-bottom:17px;
+    margin-top:17px;
+    margin-right:10px;
+		cursor: pointer;
+  }
+  #mobileButton span{
+    border-radius:10px;
+    background-color:#fff;
+    height:7px;
+    width:40px;
+  }
+  #mobileButton span:not(:first-child){margin-top:5px}
+  #mainMenu{
+  		padding:0px;
+      height:80px;
+      opacity:0.95;
+      padding-top:14px;
+			background-color:#1a1a1a;
+  }
+  #mainMenu ul /*, #logo*/{
+  	padding-top:0;
+  	width:100%;
+  	float:none;
+  	display:none;
+  	border:none;
+    float:right;
+  	}
+  #logo{
+  float:left;
+  width:200px;
+  margin-left:10px;
+  margin-top:-4px;
+  height:auto;
+  }
+  /* Drop Down Mobile */
+  #mainMenu li{
+    border:none;
+  	border-top:1px solid #333;
+  	display:block;
+  	background-color: #000;
+  	opacity:0.95;
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+  #mainMenu li:last-child{
+    border-bottom:1px solid #333;
+  }
+  #mainMenu a{
+  display:block;
+  text-align:center;
+  letter-spacing: 3px;
+  border-radius:0;
+  }
+  #mainMenu ul li a:hover{
+  	color:#fff;
+  	border-bottom:none;
+  }
+  #mainMenu ul li:hover{
+  	background-color:#4984f2;
+  	border-bottom:none;
+  }
+
+  /* trenutno otvorena stranica */
+  #mainMenu a.trenutni{
+    color:#444;
+    border-bottom:0;
+  }
+  #mainMenu li:not(:last-child){
+    margin-right:0;
+  }
+
+
+/*HERO*/
+#pageHeader h1{
+  font-size:32px;
+}
+#pageHeader h2{font-size:18px;}
+#pageHeader a{
+	width:44px;
+	height:44px;
+}
+
+#facebook_icon,#twitter_icon,#google_icon,#youtube_icon,#inked_icon{
+background-size: 44px;
+}
+#facebook_icon:hover,#twitter_icon:hover,#google_icon:hover,#youtube_icon:hover,#inked_icon:hover{
+background-size: 44px;
+}
+
+/*dynamic*/
+#wrap_line{
+	  padding:0 0;
+}
+#content{
+	float:none;
+	width:100%;
+	text-align:center;
+	margin-bottom:20px;
+	margin:0 auto;
+	padding:20px;
+}
+
+#content h2{
+	  border:1px dotted #ccc;
+		margin-bottom:10px;
+		padding:10px;
+}
+
+.slideshow-container{
+		padding-left:0;
+		padding-right:0;
+		border:1px dotted #ccc;
+		float:none;
+		margin:0 auto;
+		width:100%;
+		padding:30px;
+}
+
+#content span img{
+display:none;
+float:none;
+}
+
+#sidebar{
+float:none;
+margin:0 auto;
+padding:20px;
+width:100%;
+border-top:1px solid #ccc;
+}
+
+#sidebar h2{
+text-align:center;
+margin-bottom:20px;
+}
+
+#side_wrap{
+	padding:0 20px;
+	border:1px dotted #ccc;
+}
+
+.dot_wrap{
+  text-align:center;
+}
+
+.test {display:none}
+
+#onama{
+  border-bottom:1px solid #ccc;
+	margin-bottom:20px;
+}
+
+.parts{display:none;}
+#sidebar img{display:none;}
+#mob_circle{display:block;}
+#mob_circle .circle_wrap{
+width:33.33%;
+float:left;
+}
+
+.circle{
+  height:50px;
+  width:50px;
+  text-align:center;
+  padding:2px;
+  background-color:#4984f2;
+  border-radius:1000px;
+  margin:auto;
+  color:#fff;
+  font-size: 33px;
+  margin-bottom:10px;
+}
+
+
+.circle_nas{
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom:10px;
+}
+
+.circle_txt{
+  text-align: center;
+}
+
+#side_wrap{
+	padding-bottom:20px;
+}
+
+/*baner*/
+#banner{
+  margin:0;
+  text-align:center;
+	padding:20px 18px;
+}
+#banner .paragraf,  #banner div a{
+    float:none;
+  }
+#banner div a{
+    margin-top:20px;
+    display:inline-block;
+  }
+
+#pageFooter .social a{
+	width: 40px;
+	height: 40px;
+	}
+
+
+}
+
+/* primjenjuje se na uredjaje sirine 767px -veci mob */
+@media (max-width:767px) {
+	#onama h1{
+	  display:block;
+	}
+	#onama p{font-size:15px;}
+	#onama h3{font-size:18px;}
+	#onama .par2,#onama .par1{
+	  width:90%;
+	  float:none;
+		margin:auto;
+	}
+	#onama .par2{
+	  background: url('img/other/tech.png');
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  background-size:contain;
+		display:block;
+		height:100px;
+		margin-top:20px;
+	}
+
+	.usluge #graf{
+		background: url('img/gif/graphic_anim.gif');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size:contain;
+		display:block;
+	}
+
+
+	.usluge #res{
+		background: url('img/gif/responsive_anim.gif');
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  background-size:contain;
+		display:block;
+	}
+
+
+	.usluge #seo{
+		background: url('img/gif/seo_anim.gif');
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  background-size:contain;
+		display:block;
+	}
+
+	.usluge #print{
+		background: url('img/gif/pr_anim.gif');
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  background-size:contain;
+		display:block;
+	}
+
+	.kontakt_form_wrap{
+	  width:90%;
+	}
+
+	.column,.column2 {
+			width: 100%;
+			float:none;
+	}
+	.usluge_nav ul li{
+		display:block;
+		background-color: #e8e8e8;
+		padding:5px;
+	}
+	.usluge_nav ul li:not(:last-child){
+			margin-right:0;
+	}
+	.res_gal {
+			width: 50%;
+	}
+	.port_h1{
+		font-size:30px;
+	}
+
+  .main, .article, .usluge{
+    width:100%;
+    text-align: center;
+    float:none;
+  }
+
+	.usluge h2{
+    display:inline-block;
+    padding:10px;
+    border-bottom:1px solid #333;
+    margin-bottom:10px;
+    color:#4984f2;
+  }
+	.usluge p{
+    max-width:500px;
+    padding:20px;
+    color:#333;
+    margin:auto;
+  }
+  .usluge a{
+    border:5px dotted #ccc;
+    height:200px;
+    width:auto;
+    border-radius: 100px;
+		border-width:3px;
+  }
+  .usluge a:hover{
+          border:5px dotted #4984f2;
+          border-radius: 100px;
+					border-width:3px;
+    }
+  .usluge a:active{
+        border:5px solid #4984f2;
+        border-radius: 100px;
+				border-width:1px;
+    }
+	#banner .paragraf p:first-child{
+		font-size: 20px;
+		}
+
+	#banner .paragraf p:last-child{
+		font-size: 17px;
+		}
+
+	#banner div a{
+		font-size: 22px;
+		}
+	#banner{
+			padding:20px 8px;
+		}
+
+	.test {display:none}
+
+#pageFooter section{
+		display:block;
+		float:none;
+		padding:10px;
+		width:100%;
+	}
+
+
+#pageFooter .nav_f ul{
+	padding-bottom:5px;
+	border-bottom:1px solid #ccc;
+	text-align:center;
+}
+
+#pageFooter .social ul{	margin-bottom:10px;}
+
+#pageFooter .kont_f{
+		text-align:center;
+		color:#eee;
+}
+
+#pageFooter h2{
+	padding-top:20px;
+	margin-bottom:20px;
+	border-top:1px solid #ccc
+}
+
+#pageFooter section:last-child{
+	margin-top:150px;
+}
+
+#pageFooter .nav_f li{
+	display:inline-block;
+}
+
+#pageFooter .nav_f a{
+		font-size: 18px;
+}
+
+#pageFooter .nav_f li:not(:last-child){
+		/*margin:auto;*/
+		margin-right:45px;
+		margin-bottom:0;
+}
+
+
+
+}
+
+/* primjenjuje se na uredjaje sirine 479px -manji mob */
+@media (max-width:479px) {
+	.spec_h1_2{
+		font-size:28px;
+	}
+	#usluge_1 h1{font-size:28px;}
+	#banner .paragraf p:first-child{
+		font-size: 17px;
+		}
+
+	#banner .paragraf p:last-child{
+		font-size: 15px;
+		}
+
+	#banner div a{
+		font-size: 18px;
+		}
+	#banner{
+				padding:20px 2px;
+			}
+
+	.res_gal {
+			width: 100%;
+			float: none;
+	}
+	.port_h1{
+		font-size:20px;
+	}
+
+	.usluge p{font-size: 15px}
+	.fake p{font-size:15px;}
+	.fake p:last-child{
+	  font-size:15px;
+	}
+	.fake h3{
+	  font-size:20px;
+	}
+
+	#below_banner p{
+		font-size:15px;
+	}
+	#below_banner p:last-child{
+	  font-size:17px;
+	}
+
+	#below_banner img{
+		display:inline-block;
+		margin:auto;
+		padding-bottom:10px;
+		width:40%;
+		height:auto;
+	}
+
+	#pageHeader h1{font-size:20px;}
+	#pageHeader h2{font-size:13px}
+	#pageHeader a{
+		width:40px;
+		height:40px;
+	}
+	#facebook_icon,#twitter_icon,#google_icon,#youtube_icon,#inked_icon{
+	background-size: 40px;
+	}
+	#facebook_icon:hover,#twitter_icon:hover,#google_icon:hover,#youtube_icon:hover,#inked_icon:hover{
+	background-size: 40px;
+	}
+
+	#pageHeader li:not(:last-child){
+				margin-right:2px;
+	}
+
+	#banner .paragraf p:first-child{
+				font-size: 18px;
+	}
+
+	#banner .paragraf p:last-child{
+				font-size: 13px;
+	}
+
+	.circle_txt{
+		font-size:14px;
+	}
+
+	#pageFooter .nav_f li:not(:last-child){
+			margin-right:30px;
+	}
+	#pageFooter .nav_f a{font-size:15px;}
+
+}
+
+@media (max-width:400px) {
+	.spec_h1_2{
+		font-size:22px;
+	}
+	#usluge_1 h1{font-size:22px;}
+	#pageHeader h1{font-size:19px;}
+	#pageHeader h2{font-size:12px}
+	#pageFooter .nav_f a{font-size:22px;}
+	#pageFooter .nav_f ul{text-align:center;padding-bottom:20px;}
+	#pageFooter .nav_f li{display:block;}
+	#pageFooter .nav_f li:not(:last-child){
+			margin-right:0;
+			text-align:center;
+			margin-bottom:10px;
+	}
+}
+
+@media (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/*2020*/
+@media only screen and (orientation: landscape) {
+			 #pageHeader div{
+		 		margin-top:4em;
+        margin-bottom:0;
+		 	}
+}
+@media only screen and (orientation: portrait) {
+			 #pageHeader div{
+        margin-bottom:12em;
+				margin-top:0;
+		 	}
+}
+
+@media only screen and (max-width: 600px){
+		#pageHeader{
+			background-position: 70% center !important;
+		}
+	}
+}
